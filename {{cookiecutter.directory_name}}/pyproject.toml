@@ -4,7 +4,6 @@ version = "{{cookiecutter.version}}"
 description = "{{cookiecutter.description}}"
 authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
 license = "{{cookiecutter.license}}"
-readme = 'README.md'
 keywords = ["python"]
 packages = [{ include = "{{cookiecutter.project_name}}", from = "module" }]
 
